@@ -149,11 +149,11 @@ img{
 	z-index: 2;
 }
 footer{
+	padding:40px;
 	height:250px;
 	position:relative;
 	top:60px;
 	width:100%;
-	padding:50px;
 	font-weight: 700;
 	text-align: center;
 	background-color:rgb(136,226,210);
@@ -162,26 +162,4 @@ footer{
 	letter-spacing: 3px;
 	clear:both;
 }
-nav.footernav{
-	width:100%;
-}
-nav.footernav ul{
-	display:block;
-	
-}
-nav.footernav ul li{
-	margin-right: 50px;
-	padding:10px;
-	font-weight: 400;
-}
-nav.footernav ul li:hover{
-	color:#ff9999;
-	transition: color 0.4s ease;
-	-webkit-transition: color 0.4s ease;
-        -moz-transition: color 0.4s ease;
-        -o-transition: color 0.4s ease;
-        -ms-transition: color 0.4s ease;	
-}
-nav.footernav ul li:after{
-	content:"";
-}
+
